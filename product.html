@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด — SHAMPOO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">Shampoo</a>
+      <nav class="nav-links" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html" class="active">สินค้าทั้งหมด</a>
+        <a href="order.html">สั่งซื้อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <!-- Page Header -->
+        <div class="section-header">
+          <span class="eyebrow">Our Collection</span>
+          <h1>คอลเลกชันยาสระผมทั้งหมด</h1>
+          <p>เลือกขนาดและกลิ่นหอมที่ตอบโจทย์ไลฟ์สไตล์ของคุณ มีให้เลือกทั้งขนาดทดลอง 30ml และขนาดปกติ 100ml</p>
+        </div>
+
+        <!-- Filter Bar (Rendered by script.js) -->
+        <div id="filter-bar" class="filter-group" aria-label="ตัวกรองกลิ่นสินค้า"></div>
+
+        <!-- Product Grid (Rendered by script.js) -->
+        <div id="product-list" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">Shampoo</a>
+          <p style="margin-top: 1rem; max-width: 340px;">
+            สัมผัสความหอมสะอาด สดชื่น เหมือนเพิ่งสระผมเสร็จใหม่ๆ ได้ทุกที่ทุกเวลา
+          </p>
+        </div>
+        <div>
+          <h4 class="eyebrow" style="color: var(--text-primary); margin-bottom: 1rem;">คอลเลกชัน</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li><a href="product.html?mood=flower">Flower Collection</a></li>
+            <li><a href="product.html?mood=fruity">Fruity Collection</a></li>
+            <li><a href="product.html?mood=herbal">Herbal Collection</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="eyebrow" style="color: var(--text-primary); margin-bottom: 1rem;">เมนู</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="product.html">สินค้าทั้งหมด</a></li>
+            <li><a href="order.html">สั่งซื้อสินค้า</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 SHAMPOO. All rights reserved.</span>
+        <span>Minimalist Hair Care</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

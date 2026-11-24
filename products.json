@@ -1,0 +1,56 @@
+[
+  {
+    "id": "shampoo-flower-30",
+    "name": "Shampoo - Flower (Travel Size)",
+    "mood": "flower",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/flower.jpg",
+    "description": "ยาสระผมกลิ่นดอกไม้หอมละมุน อ่อนโยน และมีเสน่ห์ชวนหลงใหล ขนาดพกพาสะดวกสำหรับทดลองใช้หรือเดินทาง"
+  },
+  {
+    "id": "shampoo-flower-100",
+    "name": "Shampoo - Flower",
+    "mood": "flower",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/flower.jpg",
+    "description": "ยาสระผมกลิ่นดอกไม้หอมละมุน มอบสัมผัสนุ่มนวลและกลิ่นหอมติดทนนาน เพื่อการดูแลเส้นผมในทุกวัน"
+  },
+  {
+    "id": "shampoo-fruity-30",
+    "name": "Shampoo - Fruity (Travel Size)",
+    "mood": "fruity",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fruity.jpg",
+    "description": "ยาสระผมกลิ่นผลไม้สดชื่น มีชีวิตชีวา เติมความรู้สึกกระปรี้กระเปร่าในขนาดกะทัดรัดพกพาง่าย"
+  },
+  {
+    "id": "shampoo-fruity-100",
+    "name": "Shampoo - Fruity",
+    "mood": "fruity",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fruity.jpg",
+    "description": "ยาสระผมกลิ่นผลไม้หอมหวานซ่อนเปรี้ยวอย่างมีระดับ มอบความสดใสและเบาสบายเส้นผมตลอดวัน"
+  },
+  {
+    "id": "shampoo-herbal-30",
+    "name": "Shampoo - Herbal (Travel Size)",
+    "mood": "herbal",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/herbal.jpg",
+    "description": "ยาสระผมสูตรสมุนไพรหอมสะอาด เย็นสดชื่น และช่วยผ่อนคลายความตึงเครียด ขนาดทดลองพกติดกระเป๋า"
+  },
+  {
+    "id": "shampoo-herbal-100",
+    "name": "Shampoo - Herbal",
+    "mood": "herbal",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/herbal.jpg",
+    "description": "ยาสระผมสูตรสมุนไพรธรรมชาติ มอบความรู้สึกสะอาดล้ำลึก เย็นสบายหนังศีรษะ และผ่อนคลายราวกับทำสปา"
+  }
+]

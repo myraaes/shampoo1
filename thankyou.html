@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ขอบคุณสำหรับการสั่งซื้อ — SHAMPOO</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .thankyou-section {
+      min-height: calc(100vh - 82px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-lg) 0;
+    }
+
+    .thankyou-card {
+      max-width: 580px;
+      margin: 0 auto;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      padding: 4.5rem 3rem;
+    }
+
+    .thankyou-divider {
+      width: 48px;
+      height: 1px;
+      background-color: var(--accent-gold);
+      margin: 1.75rem auto;
+    }
+
+    @media (max-width: 640px) {
+      .thankyou-card {
+        padding: 3rem 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">Shampoo</a>
+      <nav class="nav-links" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+        <a href="order.html">สั่งซื้อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="thankyou-section">
+      <div class="container">
+        <div class="thankyou-card">
+          <span class="eyebrow">Order Confirmed</span>
+          <h1>ขอบคุณสำหรับการสั่งซื้อ</h1>
+          <div class="thankyou-divider"></div>
+          <p style="margin-bottom: 2.5rem;">
+            เราได้รับข้อมูลคำสั่งซื้อของคุณเรียบร้อยแล้ว ทีมงานจะติดต่อกลับผ่านช่องทางที่คุณระบุไว้เพื่อยืนยันรายละเอียดและแจ้งการจัดส่งในเร็วๆ นี้
+          </p>
+          <a href="index.html" class="btn">กลับหน้าแรก</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
